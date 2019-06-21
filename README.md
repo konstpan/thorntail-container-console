@@ -1,4 +1,6 @@
-### Packaging your application
+This example builds a docker image of thorntail with web management console enabled for remote access.
+
+##### Packaging your application
 ---
 Run `mvn clean package docker:build`
 
@@ -8,6 +10,6 @@ You run the Docker container and start the Thorntail microservice (a simple JAX-
 
 `docker run --rm -p 8080:8080 -p 9990:9990 example-docker-jaxrs-dockerfile`
 
-Access `http://localhost:8080/ping` and you should get a "pong".
+Access application on `http://localhost:8080/ping` and you should get a "pong".
 
 The console is accessible on `http://localhost:8080/console`, username "admin" and password "123456".
