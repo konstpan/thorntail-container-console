@@ -1,0 +1,14 @@
+thorntail:
+  management:
+    security-realms:
+      ManagementRealm:
+        in-memory-authentication:
+          users:
+            admin:
+              password: 123456
+    bind:
+      address: 0.0.0.0
+    http-interface-management-interface:
+      allowed-origins:
+      - http://localhost:8080
+      security-realm: ManagementRealm

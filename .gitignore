@@ -1,0 +1,14 @@
+.apt_generated
+target/
+.settings/
+.classpath
+*.old
+.metadata
+.sonarlint
+RemoteSystemsTempFiles/
+.recomenders
+.project
+.idea
+*.iml
+/.recommenders/
+rebel.xml
